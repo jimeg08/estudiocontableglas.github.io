@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    flex: 1;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.about p {
+    font-size: medium; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw; 
+}
+
+.image img {
+    max-width: 35vw; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw; 
+    background-color: #6684a8;
+    color: #ffffff;
+}
+
+.services{
+    background-color: #def1ff;
+    padding-top: 4.8em;
+    padding-left: 2em;
+    padding-bottom: 0.7em;
+}
+
+.info {
+    margin-left: 5vw; 
+    max-width: 90vw;
+}
+
+h1 {
+    color: #fff;
+    font-size: larger;
+    font-family: "Libre Baskerville", Georgia, serif;
+   
+}
+
+h2 {
+    color: #333;
+    margin: 0;
+    font-size: 17px;
+    font-style: italic;
+}
+
+h3 {
+    color: #2e3035;
+    font-size: larger;
+    font-weight: 450;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #05163d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1f366d;
+}
+

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #def1ff;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+#contacto {
+    background-color: #def1ff;
+    padding: 1px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#contacto h2 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    font-family: "Libre Baskerville", Georgia, serif;
+}
+
+p.details {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    font-family: "Libre Baskerville", Georgia, serif;
+}
+
+.contact-buttons {
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-family: "Libre Baskerville", Georgia, serif;
+    font-size: small;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #030f2b;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.contact-buttons svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact-buttons a:hover {
+    background-color: #d7eefc;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+form input[type="submit"] {
+    background-color: #05163d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.7em;
+    font-family: "Libre Baskerville", Georgia, serif;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1f366d;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 5px; 
+    font-weight: 500;
+    font-size: 0.9em;
+}

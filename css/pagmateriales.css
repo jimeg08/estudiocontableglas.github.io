@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body nav{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: "Libre Baskerville", Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #def1ff;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: larger;
+    margin-top: 80px;
+}
+
+div {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f8fcfe;
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#Instructivo p {
+    text-align: left; 
+}
+
+#Instructivo {
+    text-align: center;
+}
+
+#Instructivo a {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1f366d;
+    padding: 8px 16px;;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#Instructivo a:hover {
+    background-color: #385391;
+}
